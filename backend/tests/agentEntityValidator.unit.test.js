@@ -4,7 +4,7 @@
  *   node agent/tests/agentEntityValidator.unit.test.js
  */
 
-const { buildAllowedEntitySet, validateEntityAllowlist } = require('../entityValidator')
+const { buildAllowedEntitySet, validateEntityAllowlist } = require('../agent/entityValidator')
 const { fakeRoots } = require('./entityFixtures')
 
 let passed = 0

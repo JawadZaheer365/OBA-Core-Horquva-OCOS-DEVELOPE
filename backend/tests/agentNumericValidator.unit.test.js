@@ -4,7 +4,7 @@
  *   node agent/tests/agentNumericValidator.unit.test.js
  */
 
-const { validateNumericCitations } = require('../numericValidator')
+const { validateNumericCitations } = require('../agent/numericValidator')
 const fixtures = require('./numericFixtures')
 
 let passed = 0
